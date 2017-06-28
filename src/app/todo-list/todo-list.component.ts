@@ -4,10 +4,10 @@ import { TodoService } from '../shared/todo.service';
 
 
 @Component({
-    //moduleId: module.id,
+    moduleId: module.id,
     selector: 'todo-list',
-    templateUrl: './todo-list.component.html',
-    styleUrls: ['./todo-list.component.css']
+    templateUrl: 'todo-list.component.html',
+    styleUrls: ['todo-list.component.css']
 })
 export class TodoListComponent implements OnInit {
     todos: Todo[]; // type array

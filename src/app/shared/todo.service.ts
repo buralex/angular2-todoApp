@@ -63,7 +63,7 @@ export class TodoService {
             .catch(this.handleError)
     }
 
-    private handleError(error) {
+    private handleError(error: any) {
         console.error('error occurred')
         return Promise.reject(error.message || error)
     }

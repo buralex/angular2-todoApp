@@ -3,10 +3,10 @@ import { Todo } from '../shared/todo';
 
 
 @Component({
-    //moduleId: module.id,
+    moduleId: module.id,
     selector: 'todo-item',
-    templateUrl: './todo-item.component.html',
-    styleUrls: ['./todo-item.component.css']
+    templateUrl: 'todo-item.component.html',
+    styleUrls: ['todo-item.component.css']
 })
 export class TodoItemComponent {
     @Input() todo: Todo; //
